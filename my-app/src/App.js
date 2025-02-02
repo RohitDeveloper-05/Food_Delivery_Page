@@ -132,8 +132,8 @@ const App = () => {
             <h2>Products</h2>
             <div className="row">
               {products.map((product) => (
-                <div key={product.id} className="col-md-4 mb-3">
-                  <div className="card">
+                <div key={product.id} className="col-md-4 mb-3 d-flex">
+                  <div className="card w-100">
                     <img
                       src={product.image}
                       alt={product.name}
